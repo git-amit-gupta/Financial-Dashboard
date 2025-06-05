@@ -1,0 +1,12 @@
+.x-panel-header-title-default > .x-title-text-default::after {
+  content: none !important;
+  display: none !important;
+}
+
+div[style*="z-index: 200000;"][style*="bottom: 0px"] {
+  display: none !important;
+}
+
+#root > div:not(.main-app-container) {
+  display: none !important;
+}
