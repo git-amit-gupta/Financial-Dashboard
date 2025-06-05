@@ -48,12 +48,16 @@ export const LoginPanel = (props) => {
               name: "username",
               fieldLabel: "Email",
               vtype: "email",
+              value: "admin1@test.com",
+              readOnly: true
             },
             {
               name: "password",
               fieldLabel: "Password",
               inputType: "password",
               maxLength: 12,
+              value: "admin@123",
+              readOnly: true
             },
             {
               xtype: "checkboxfield",
